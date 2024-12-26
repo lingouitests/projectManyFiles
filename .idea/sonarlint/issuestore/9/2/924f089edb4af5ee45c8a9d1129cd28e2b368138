@@ -1,0 +1,9 @@
+
+0
+java:S1220""Move this file to a named package.
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(£Ξ¶Ρÿÿÿÿÿ8θΑ¦ΝΏ2
+T
+java:S6126	"2Replace this String concatenation with Text block.(Νεδώÿÿÿÿ8ιΑ¦ΝΏ2
+G	java:S106"+Replace this use of System.err by a logger.(ηρ©θ8†Β¦ΝΏ2
+G	java:S106"+Replace this use of System.out by a logger.(€—ΊΤ8Β¦ΝΏ2

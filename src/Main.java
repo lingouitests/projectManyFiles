@@ -15,7 +15,7 @@ public class Main {
             directory.mkdirs();
         }
 
-        for (int i = 1; i <= 10000; i++) {
+        for (int i = 1; i <= 1000; i++) {
             String fileName = "test" + i + ".properties";
             File file = new File(directoryPath, fileName);
             try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
