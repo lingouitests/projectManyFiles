@@ -5,9 +5,9 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        String directoryPath = "C:/projectManyFiles/src/resources";
+        String directoryPath = "C:/Users/dimaf/IdeaProjects/projectManyFiles/src/resources/one/two/three/four/five/six/seven/eight/nine/ten/long_path_to_files";
         String content = "test=test\n" +
-                "yeah=there will be 1000 of files\n" +
+                "yeah=there will be 3000 of files\n" +
                 "blablabla=blablabla\n";
 
         File directory = new File(directoryPath);
@@ -15,7 +15,7 @@ public class Main {
             directory.mkdirs();
         }
 
-        for (int i = 1; i <= 1000; i++) {
+        for (int i = 1; i <= 3000; i++) {
             String fileName = "test" + i + ".properties";
             File file = new File(directoryPath, fileName);
             try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
